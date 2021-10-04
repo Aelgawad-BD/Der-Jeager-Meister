@@ -1,0 +1,49 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (ForPetesSake.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Background.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Enemy.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Game.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Game.cpp(63,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::string'
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Game.cpp(68,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::string'
+  GameObject.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  GameStateMachine.cpp
+  InputHandler.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\InputHandler.cpp(19,16): warning C4101: 'inputHandler': unreferenced local variable
+  IntroCard.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  JoystickHandler.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\JoystickHandler.cpp(130,24): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\JoystickHandler.cpp(157,26): warning C4018: '<': signed/unsigned mismatch
+  KeyboardHandler.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  MenuButton.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  MenuObject.cpp
+  MenuState.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Player.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(31,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(32,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(36,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(46,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  RunningState.cpp
+  SDLGameObject.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\SDLGameObject.cpp(6,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\SDLGameObject.cpp(6,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TextureManager.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\TextureManager.cpp(83,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\TextureManager.cpp(84,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Vector2D.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Vector2D.cpp(31,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Watchdog.cpp
+  Generating Code...
+  DerJeagerMeister.vcxproj -> D:\Projects\1D-Software\Projects\Der_Jeager_Meister\Debug\DerJeagerMeister - DerJeagerMeister.exe

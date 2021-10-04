@@ -1,0 +1,6 @@
+﻿  Player.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(17,22): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(40,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(41,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\DerJeagerMeister\Player.cpp(46,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  DerJeagerMeister.vcxproj -> D:\Projects\1D-Software\Projects\Der_Jeager_Meister\Debug\DerJeagerMeister - DerJeagerMeister.exe

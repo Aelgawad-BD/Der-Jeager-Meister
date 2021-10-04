@@ -1,0 +1,29 @@
+Class LTexture is just a wrapper around the SDL_Texture pointer used to load .png files on the screen
+
+a scene would have more that one SDL_Texture rendered at the same time. This is made easier by the wrapper class, which keeps track and renders .png files
+
+[proposed] Class character in the future wich would represent player, enemies, etc, would have a lot of attributes one of which would be an LTexture property
+in fact multiple LTextures to account for different animation sprites
+
+[proposed] For animation sprites, I'll go with one sheet for multiple animations. One row per animation sequence. It should be standardized across all characters
+for example: the first row the character idle animation, second row is the walking animation etc. That way there is only one LTexture object per character and it
+is always shown, as opposed to showing and hiding (or creating and killing objects) for different animations which I suspect wou;ld be slower. The other way is cleaner I
+tjink, just have to be careful when SDL_Rect are scanning through the sprite sheet.
+
+In the spirtit of OOP. I think the class LTexture should father two child classes SpriteSheet and StaticTexture classes
+
+OPTION 1:
+One design to consider for the Character, Texture relationship is:
+- Entity has Texture (entity is an inanimate picture)
+- Character inherits Entity
+- Character has Texture (bt default)
+- Character implements Animator
+- Animator takes in (as a param, or however) the texture file, which in this case should be a sprite sheet and manages the animation, so it would support functions like RenderWalkAnimation() or Move(right)
+
+OPTION 2:
+Another Design to consider is to have the LTexture class handle animation by itself, it would figure out if object is animate or not, and have a whole bunch of functions that only work for sprite sheets like RenderWalkAnimation() or Move(right)
+
+
+Created a SPriteSheet class which handles all visiual aspects for an entity. SpriteSheet houses inside an array of Texture objects (currently 6) one Texture for each of the 6 animations. SpriteSheet DOESNOT inherit from Texture anymore.
+
+If it is an animate object aka Character it has SpriteSheet else it has a Texture

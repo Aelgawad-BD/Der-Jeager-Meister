@@ -1,0 +1,41 @@
+﻿  Game.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\Game.cpp(65,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::string'
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\Game.cpp(70,10): warning C4477: 'printf' : format string '%s' requires an argument of type 'char *', but variadic argument 1 has type 'const std::string'
+  GameObject.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  InputHandler.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\InputHandler.cpp(19,16): warning C4101: 'inputHandler': unreferenced local variable
+  IntroCard.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  JoystickHandler.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\JoystickHandler.cpp(122,24): warning C4018: '<': signed/unsigned mismatch
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\JoystickHandler.cpp(149,26): warning C4018: '<': signed/unsigned mismatch
+  KeyboardHandler.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  MenuObject.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\MenuObject.cpp(4,1): error C2512: 'GameObject': no appropriate default constructor available
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\GameObject.h(9,7): message : see declaration of 'GameObject'
+  MenuState.cpp
+  Player.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\Player.cpp(31,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\Player.cpp(32,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\Player.cpp(36,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\Player.cpp(46,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  SDLGameObject.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\configurations.h(14,32): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\SDLGameObject.cpp(6,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\SDLGameObject.cpp(6,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  TextureManager.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\TextureManager.cpp(72,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\TextureManager.cpp(73,21): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  Vector2D.cpp
+D:\Projects\1D-Software\Projects\Der_Jeager_Meister\ForPetesSake\Vector2D.cpp(31,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  Watchdog.cpp
+  Generating Code...
