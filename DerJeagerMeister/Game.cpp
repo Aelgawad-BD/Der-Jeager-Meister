@@ -171,7 +171,6 @@ void Game::RemoveGameObject(GameObject* gameObject)
 
 void Game::ConsoleLog()
 {
-	//console->ClearScreen();
 	float secondsGone = SDL_GetTicks() / 1000.0f;
 	console->SetCursorPosition(5, 5);
 	std::cout << "Seconds Count: " << (int)secondsGone;
@@ -179,6 +178,9 @@ void Game::ConsoleLog()
 	std::cout << "Frame Count: " << framesRendered;
 	console->SetCursorPosition(5, 9);
 	std::cout << "Avg FPS: " << (int)(framesRendered / secondsGone);
+
+	
+	
 	std::cout << std::endl;
 	std::cout << std::endl;
 }

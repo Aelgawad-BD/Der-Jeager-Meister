@@ -14,7 +14,6 @@ InputHandler* InputHandler::GetInstance()
 	return s_pInputHandlerInstance;
 }
 
-
 InputHandler* InputHandler::CreateInstance()
 {
 	InputHandler* inputHandler;

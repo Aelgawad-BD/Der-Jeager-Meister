@@ -5,7 +5,6 @@ KeyboardHandler::KeyboardHandler()
 {
 	// Not Used
 	this->keyStates = SDL_GetKeyboardState(NULL);
-
 }
 
 void KeyboardHandler::update()
@@ -65,7 +64,6 @@ void KeyboardHandler::update()
 	}
 
 }
-
 
 void KeyboardHandler::clean()
 {
